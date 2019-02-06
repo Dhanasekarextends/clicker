@@ -4,7 +4,7 @@ import "../App.css";
 class Value extends Component{
     render() {
         return(
-            <div className="value">Value</div>
+            <div className="value">{this.props.sendVal}</div>
         )
     }
 }
